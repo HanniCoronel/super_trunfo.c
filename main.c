@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    
+
     // Criando variáveis separadas para a Carta1
     char codigo1[4], nome1[10], estado1[10];
     int populacao1;
@@ -42,7 +42,7 @@ int main() {
 
     // Cálculo dos indicadores
     densidadePopulacional1 = populacao1 / area1;
-    pibPerCapita1 = pib1 * 1000000000 / populacao1;
+    pibPerCapita1 = pib1 / populacao1;
    
     // Entrada de dados para a Carta2
     printf("Cadastro da segunda carta:\n");
@@ -70,7 +70,7 @@ int main() {
 
     // Cálculo dos indicadores
     densidadePopulacional2 = populacao2 / area2;
-    pibPerCapita2 = pib2 * 1000000000 / populacao2;
+    pibPerCapita2 = pib2 / populacao2;
 
     // Exibição dos dados cadastrados
     printf("Cartas cadastradas:\n");
